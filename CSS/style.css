@@ -39,10 +39,18 @@ align-items: center;
 
 .menu {
   display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .menu-item {
   padding-right: 30px;
+}
+
+.phone {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: right;
 }
 
 .headline {
@@ -74,4 +82,63 @@ align-items: center;
   background-color:#490E84;
   padding: 22px 117px 19px;
   border-radius: 30px;
+}
+
+.new {
+  padding: 90px 0px 150px;
+}
+
+.new-title, .choose-color-title {
+  margin: 0 0 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #717171;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.new-info {
+  display: flex;
+  align-items: center;
+}
+
+.new-text p {
+  max-width: 560px;
+  margin: 0 0 30px;
+}
+
+.new-text b {
+  max-width: 560px;
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+}
+
+.img-new {
+  margin-left: 190px;
+}
+
+.choose-color {
+  padding-bottom: 150px;
+}
+
+.choose-color-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.choose-color-item img {
+  margin-bottom: 20px;
+}
+
+.choose-color-item h3 {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 0 10px;
+}
+
+.choose-color-item p{
+  margin: 0;
 }
